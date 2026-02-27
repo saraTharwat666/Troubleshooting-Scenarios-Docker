@@ -21,12 +21,11 @@ When trying to run the container on port 8888, I encountered an address already 
 # Locate the process
 sudo ss -tulpn | grep :8888
 ```
-# Kill the process
-```sudo fuser -k 8888/tcp
+```Kill the process
+sudo fuser -k 8888/tcp
 ```
 3. Log Analysis (The Breakthrough)
 The Dockerfile stated EXPOSE 8880, but after running the container and checking the logs:
-
 ```Bash
 docker logs <container_id>
 # Output: "Server Started on: 8888"
