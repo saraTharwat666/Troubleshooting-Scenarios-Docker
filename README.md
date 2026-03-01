@@ -1,6 +1,6 @@
 # 🐳 Docker Troubleshooting & Lab Solutions (SadServers)
 
-![Project Banner](https://your-image-link-here.com)
+![Project Banner](https://levelup.gitconnected.com/docker-networking-modes-406ff4548dfa)
 
 Welcome to my specialized repository for **Docker Infrastructure Troubleshooting**. This project documents my journey through solving complex, real-world container scenarios from [SadServers](https://sadservers.com/), focusing on Linux systems, container networking, and microservices orchestration.
 
