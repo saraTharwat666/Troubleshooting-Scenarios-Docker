@@ -1,0 +1,15 @@
+Scenario: "San Juan": mucho Traefik
+
+Level: Medium
+
+Type: Fix
+
+Access: Email
+
+Description: There is a Traefik load balancer that must be up and running. The server and the backend services are managed by Docker Compose. Running curl -s app.sadserver | head -n1 must return the host ID of one of the backend servers, running the command again must return a new host ID. The server seems to be working some times, some others fails or just times out.
+
+The round-robin configuration should make the webserver iterate through the back-end servers.
+
+Test: curl -s app.sadserver | head -n1 returns something like Hostname:
+
+The "Check My Solution" button runs the script /home/admin/agent/check.sh, which you can see and execute.
