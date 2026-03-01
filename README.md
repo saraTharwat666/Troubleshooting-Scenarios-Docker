@@ -1,6 +1,6 @@
 # 🐳 Docker Troubleshooting & Lab Solutions (SadServers)
 
-![Project Banner](https://kodekloud.com/blog/docker-for-beginners/)
+![Project Banner]([https://kodekloud.com/blog/docker-for-beginners/](https://share.google/LlrFsTnTxxvfCzD4C))
 
 Welcome to my specialized repository for **Docker Infrastructure Troubleshooting**. This project documents my journey through solving complex, real-world container scenarios from [SadServers](https://sadservers.com/), focusing on Linux systems, container networking, and microservices orchestration.
 
