@@ -53,6 +53,8 @@ max_worker_processes = 8
 ```docker compose up -d --force-recreate postgres-db-replica
 ```
 Verification
-```docker exec postgres-db-master psql -U helsingor helsingor -c "select * from pg_stat_replication;"```
+```
+docker exec postgres-db-master psql -U helsingor helsingor -c "select * from pg_stat_replication;"
+```
 
 If a row appears, replication is working.
